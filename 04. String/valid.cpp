@@ -15,7 +15,7 @@ int main()
 {
     char *name;
     printf("Enter the string: ");
-    scanf("%[^\n]s", A);
+    scanf("%[^\n]s", name);
     if (valid(name))
         printf("String is valid.");
     else
